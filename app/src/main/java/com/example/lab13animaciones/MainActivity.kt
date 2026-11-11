@@ -7,7 +7,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
-import com.example.lab13animaciones.ejercicios.Ejercicio2Screen
+import com.example.lab13animaciones.ejercicios.EjercicioFinalScreen
 import com.example.lab13animaciones.ui.theme.Lab13AnimacionesTheme
 
 class MainActivity : ComponentActivity() {
@@ -19,7 +19,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    Ejercicio2Screen()
+                    EjercicioFinalScreen()
                 }
             }
         }
